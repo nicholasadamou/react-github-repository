@@ -22,6 +22,10 @@ npx yarn install
 npx yarn netlify
 ```
 
+### Modify `.env.example`
+
+⚠️ Don't forget to modify the contents of `.env`! Take `.env.example` and fill out its contents and rename it to `.env`.
+
 ## 📚 The Tech. Stack
 
 This project uses the following technologies:
