@@ -22,7 +22,7 @@ const Layout = (content) => (
 	<>
 		<GlobalStyles />
 		<Fonts />
-		<Helmet htmlAttributes={{ lang: "en" }} title="React Starter Kit">
+		<Helmet htmlAttributes={{ lang: "en" }} title="React GitHub Repository">
 			<link rel="icon" href="/assets/favicons/favicon.ico" />
 			<link
 				rel="apple-touch-icon"
