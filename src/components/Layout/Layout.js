@@ -1,5 +1,7 @@
 import React from "react";
 
+import "carbon-components/scss/globals/scss/styles.scss";
+
 import { Helmet } from "react-helmet";
 
 import GlobalStyles from "../../sass/GlobalStyles";
