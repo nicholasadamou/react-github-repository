@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React, { useState, useEffect } from "react";
 
 import { SkeletonText } from "carbon-components-react";
@@ -201,7 +203,6 @@ const SkeletonRepository = (id) => (
       <span aria-label="title">
         <CircularProgress />
       </span>
-      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a
         href="#"
         target="_blank"
@@ -218,7 +219,6 @@ const SkeletonRepository = (id) => (
           </>
         </span>
       </a>
-      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a
         href="#"
         target="_blank"
