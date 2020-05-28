@@ -149,7 +149,7 @@ const useGitHub = (repositoryName) => {
 const Repository = (repositoryName) => {
   const repository = useGitHub(repositoryName);
 
-	if (true) return <SkeletonRepository />;
+	if (JSON.stringify(repository) === "{}") return <SkeletonRepository />;
 
   const { id, name, description, link, stars, forks } = repository;
 
