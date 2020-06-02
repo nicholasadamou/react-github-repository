@@ -1,4 +1,4 @@
-# React Github Repository [![Build Status](https://travis-ci.org/nicholasadamou/react-github-repository.svg?branch=master)](https://travis-ci.org/nicholasadamou/react-github-repository)
+# React Github Repository [![Build Status](https://travis-ci.org/nicholasadamou/react-github-repository.svg?branch=master)](https://travis-ci.org/nicholasadamou/react-github-repository) [![CircleCI](https://circleci.com/gh/nicholasadamou/react-github-repository.svg?style=svg)](https://circleci.com/gh/nicholasadamou/react-github-repository)
 
 ![preview](preview.png)
 
@@ -13,13 +13,16 @@ A React component that fetches information on a given repository from GitHub usi
 
 ### Steps
 
-Starting the front-end and _Netlify_ serverless (λ) functions:
+Run the live-reload server on <http://localhost:3000>
 
 ```bash
-git clone https://github.com/nicholasadamou/react-github-repository
-cd react-github-repository
-npx yarn install
-npx yarn netlify
+make dev
+```
+
+Or run the live-reload server on <http://localhost:8888> with _Netlify_ (λ) functions:
+
+```bash
+make netlify
 ```
 
 ### Modify `.env.example`
@@ -44,8 +47,6 @@ This project uses the following technologies:
 ## ⛓️ CI/CD Pipeline
 
 This project uses the following CI/CD Pipeline:
-
-1. [**Travis CI**](https://travis-ci.org/nicholasadamou/react-github-repository) - Travis is used to test whether or not this project builds successfully.
 
 ## License
 
