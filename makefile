@@ -13,7 +13,3 @@ build:
 .PHONY: dev
 dev:
 	yarn start
-
-.PHONY: netlify
-netlify:
-	yarn netlify
