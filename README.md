@@ -19,12 +19,6 @@ Run the live-reload server on <http://localhost:3000>
 make dev
 ```
 
-Or run the live-reload server on <http://localhost:8888> with _Netlify_ (λ) functions:
-
-```bash
-make netlify
-```
-
 ### Modify `.env.example`
 
 ⚠️ Don't forget to modify the contents of `.env`! Take `.env.example` and fill out its contents and rename it to `.env`.
@@ -41,8 +35,6 @@ This project uses the following technologies:
   - [**github-api**](https://www.npmjs.com/package/github-api) - For making requests to the GitHub API within React.
 
 **The Back-End**:
-
-- [**Netlify**](https://netlify.com/) - For serverless [**functions**](functions/).
 
 ## ⛓️ CI/CD Pipeline
 
