@@ -1,4 +1,4 @@
-# React Github Repository [![Build Status](https://travis-ci.org/nicholasadamou/react-github-repository.svg?branch=master)](https://travis-ci.org/nicholasadamou/react-github-repository) [![CircleCI](https://circleci.com/gh/nicholasadamou/react-github-repository.svg?style=svg)](https://circleci.com/gh/nicholasadamou/react-github-repository)
+# React Github Repository [![CircleCI](https://circleci.com/gh/nicholasadamou/react-github-repository.svg?style=svg)](https://circleci.com/gh/nicholasadamou/react-github-repository)
 
 ![preview](preview.png)
 
